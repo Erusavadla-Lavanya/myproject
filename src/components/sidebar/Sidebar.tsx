@@ -14,7 +14,7 @@ const HEADER_HEIGHT = "0rem";
 
 interface SidebarProps {
   isOpen: boolean;
-  setIsOpen: (val: boolean) => void;
+  setIsOpen: (_: boolean) => void;
 }
 
 const Sidebar = ({ isOpen, setIsOpen }: SidebarProps) => {
